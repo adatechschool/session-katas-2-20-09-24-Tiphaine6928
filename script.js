@@ -1,4 +1,4 @@
-// fonction qui "doit" générer 52 cartes
+// fonction qui génére aléatoirement 1 carte avec un numéro et un symbole
 function createDeck() {
     // déclaration du tableau de cartes puis du tableau de symboles
     let numero = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"];
@@ -11,6 +11,7 @@ function createDeck() {
     }
 }
 
+// boucle for qui exécute 52 fois la fonction createDeck() 
 for (let x = 0; x < 52; x++){
     console.log(createDeck());
 }
